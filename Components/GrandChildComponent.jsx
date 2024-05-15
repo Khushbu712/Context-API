@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { colorContext } from "../context";
 
-function GrandChildComponent(props)  { 
+function GrandChildComponent()  { 
   const color = useContext(colorContext);
   console.log(color)
   return( 
